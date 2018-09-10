@@ -10,7 +10,7 @@ const userSchema = new Schema({
     }
 })
 
-//Write some pre functions
+//Write some "pre" functions
 
 //
 const User = mongoose.model('User', userSchema)

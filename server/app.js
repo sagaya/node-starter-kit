@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 
 
-mongoose.connect("mongodb://localhost:27017/maxpay", ()=>{
+mongoose.connect(process.env.DB, ()=>{
     console.log("Connected to mongo");
     
 })
