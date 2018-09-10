@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/test.js"],"names":["test","t","console","log"],"mappings":";;;;;AAAA,IAAMA,OAAO,SAAPA,IAAO,CAACC,CAAD,EAAK;AACdC,YAAQC,GAAR,CAAYF,CAAZ;AACH,CAFD;;kBAIeD,I","file":"test.js","sourcesContent":["const test = (t)=>{\n    console.log(t)\n}\n\nexport default test;"]}
